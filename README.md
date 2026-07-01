@@ -39,42 +39,10 @@ The pipeline consists of five main stages:
 
 ------------------------------------------------------------------
 
-# Repository Structure
-
-
-youtube_pipeline/
-│
-├── .env
-├── .gitignore
-├── requirements.txt
-├── README.md
-├── design_notes.md
-├── main.py
-├── queries.sql
-├── query_results.md
-│
-├── docs/
-│   └── architecture.png
-│
-├── data/
-│   └── raw/
-│       └── raw_data.json
-│
-└── src/
-    ├── api_client.py
-    ├── fetcher.py
-    ├── transformer.py
-    └── loader.py
-
-
----------------------------------------------------
-
-
-
 
 # Prerequisites
 
-- Python 3.8+
+- Python 
 - Postgres
 - YouTube Data API v3 Key
 
@@ -133,10 +101,10 @@ DB_PASSWORD=your_db_password
 
 #  youtube Channels
 
-1- beIN SPORTS 
-2- Nat Geo Abu Dhabi 
-3- Joe HaTTab 
-4- BBC News 
+1- beIN SPORTS     
+2- Nat Geo Abu Dhabi      
+3- Joe HaTTab    
+4- BBC News  
 
 
 
