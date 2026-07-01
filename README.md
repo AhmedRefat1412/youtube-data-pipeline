@@ -2,7 +2,7 @@
 
 A modular ETL pipeline that extracts video and comment data from the YouTube Data API v3, stores the raw API responses, transforms the data into an analysis-ready format, and loads it into PostgreSQL for querying and analysis.
 
----
+--------------------------------------------------------------
 
 # Architecture
 
@@ -10,7 +10,7 @@ A modular ETL pipeline that extracts video and comment data from the YouTube Dat
     <img src="./youtubeAPI.drawio.png" alt="Pipeline Architecture" width="1000"/>
 </p>
 
----
+-----------------------------------------------------------------
 
 # ETL Workflow
 
@@ -37,11 +37,11 @@ The pipeline consists of five main stages:
 5. **Analyze**
    - Execute SQL queries to generate insights
 
----
+------------------------------------------------------------------
 
 # Repository Structure
 
-```text
+
 youtube_pipeline/
 │
 ├── .env
@@ -65,9 +65,9 @@ youtube_pipeline/
     ├── fetcher.py
     ├── transformer.py
     └── loader.py
-```
 
-------------------------------------------
+
+---------------------------------------------------
 
 
 
@@ -87,9 +87,8 @@ https://console.cloud.google.com
 
 # Configure environment variables
 
-Create a `.env` file in the project root.
+Create a .env file in the project root.
 
-```text
 YOUTUBE_API_KEY=your_api_key
 
 DB_HOST=localhost
@@ -132,12 +131,12 @@ DB_PASSWORD=your_db_password
 
 ---
 
-# Channels
+#  youtube Channels
 
-beIN SPORTS 
-Nat Geo Abu Dhabi 
-Joe HaTTab 
-BBC News 
+1- beIN SPORTS 
+2- Nat Geo Abu Dhabi 
+3- Joe HaTTab 
+4- BBC News 
 
 
 
