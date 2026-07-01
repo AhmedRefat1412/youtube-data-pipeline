@@ -7,7 +7,7 @@ A modular ETL pipeline that extracts video and comment data from the YouTube Dat
 # Architecture
 
 <p align="center">
-    <img src="docs/architecture.png" alt="Pipeline Architecture" width="1000"/>
+    <img src="./youtubeAPI.drawio.png" alt="Pipeline Architecture" width="1000"/>
 </p>
 
 ---
